@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".EmpatActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Activity 4"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnP14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pindah ke Activity 1"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnP15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Pindah ke Activity 2"/>
+
+    <Button
+        android:id="@+id/btnP16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Pindah ke Activity 3"/>
+
+
+    <Button
+        android:id="@+id/btnKembali3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kembali"/>
+
+</LinearLayout>

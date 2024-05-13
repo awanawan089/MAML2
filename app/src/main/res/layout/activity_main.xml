@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Aplikasi FTI UTS"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnP1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pindah ke Activity 1"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnP2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Pindah ke Activity 2"/>
+
+    <Button
+        android:id="@+id/btnP3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Pindah ke Activity 3"/>
+
+    <Button
+        android:id="@+id/btnP4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Pindah Ke Activity 4"/>
+
+    <Button
+        android:id="@+id/btntutup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="250dp"
+        android:text="Tutup Aplikasi"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:text="Dibuat oleh : SETIAWAN ADI PAMUNGKAS 22.01.53.3011 "/>
+
+
+
+
+</LinearLayout>
